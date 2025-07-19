@@ -1,27 +1,21 @@
 const projects = [
     {
-      title: "Job Board Platform",
-      description: "A platform where users can search and apply for jobs.",
-      tech: ["React", "Node.js", "MongoDB"],
-      link: "#",
+      title: "ShopHub",
+      description: "A full-stack e-commerce platform with admin dashboard, OAuth login, Razorpay integration, and light/dark mode. Features fully responsive design.",
+      tech: ["React", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "SQL"],
+      link: "https://shophub-ecom.vercel.app",
     },
     {
-      title: "E-Commerce Website",
-      description: "A full-stack e-commerce platform with payment integration.",
-      tech: ["MERN", "Stripe", "Tailwind"],
-      link: "#",
+      title: "Payora",
+      description: "A wallet-based P2P transaction system with authentication and sleek UI. Implements monorepo architecture for modular scalability.",
+      tech: ["Next.js", "TailwindCSS", "PostgreSQL", "Prisma", "NextAuth", "Turborepo"],
+      link: "https://payora-app.vercel.app",
     },
     {
-      title: "Social Media Dashboard",
-      description: "A dashboard to track social media analytics.",
-      tech: ["React", "Chart.js", "Firebase"],
-      link: "#",
-    },
-    {
-      title: "URL Shortener",
-      description: "A web app to shorten long URLs with analytics tracking.",
-      tech: ["Express.js", "MongoDB", "React"],
-      link: "#",
+      title: "Vinayak Industries Website",
+      description: "Currently designing and developing a company website to establish online presence for a manufacturing firm. Leading requirements gathering and implementation.",
+      tech: ["React", "TailwindCSS", "Node.js", "Responsive Design"],
+      link: null,
     },
   ];
   
@@ -45,12 +39,16 @@ const projects = [
                     </span>
                   ))}
                 </div>
-                <a
-                  href={project.link}
-                  className="mt-4 inline-block text-blue-500 hover:underline"
-                >
-                  View Project
-                </a>
+                {project.link && (
+                  <a
+                    href={project.link}
+                    className="mt-4 inline-block text-blue-500 hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Project
+                  </a>
+                )}
               </div>
             ))}
           </div>

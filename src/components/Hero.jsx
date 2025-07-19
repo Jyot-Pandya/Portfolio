@@ -11,9 +11,9 @@ const Hero = () => {
             Hi, I'm Jyot Pandya
           </h1>
           <p className="mt-4 text-gray-600">
-            A <span className="font-semibold text-blue-600">Full-Stack Developer</span> & 
-            <span className="font-semibold text-blue-600"> Cybersecurity Analyst</span> passionate about building secure and 
-            scalable web applications.
+            A <span className="font-semibold text-blue-600">Full-Stack Developer</span> specialized in 
+            <span className="font-semibold text-blue-600"> modern web technologies</span>. Passionate about building 
+            <span className="font-semibold text-blue-600"> scalable and production-ready</span> applications.
           </p>
           <a
             href={import.meta.env.BASE_URL + 'Jyot_Pandya_Resume.pdf'}

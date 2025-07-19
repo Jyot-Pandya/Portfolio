@@ -1,6 +1,14 @@
 const skills = [
-    "HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "Node.js", 
-    "Express.js", "MongoDB", "SQL", "Java", "Python", "C", "Cybersecurity"
+    // Languages
+    "JavaScript", "TypeScript", "Java",
+    // Frontend
+    "React", "Next.js", "TailwindCSS", "HTML", "CSS", "Framer Motion",
+    // Backend
+    "Node.js", "Express.js", "PostgreSQL", "MongoDB", "SQL", "Prisma",
+    // Tools & DevOps
+    "Git", "Docker", "Kubernetes", "AWS", "Nginx", "Turborepo", "Vite",
+    // Other
+    "NextAuth", "Recoil", "Postman"
   ];
   
   const Skills = () => {

@@ -6,15 +6,15 @@ const About = () => {
         <div className="w-full">
           <h2 className="text-3xl font-bold text-gray-900">About Me</h2>
           <p className="mt-4 text-gray-600">
-            I'm a passionate <span className="font-semibold text-blue-600">Full-Stack Developer</span> and 
-            <span className="font-semibold text-blue-600"> Cybersecurity Analyst</span> with a strong foundation in 
-            <span className="font-semibold text-blue-600"> React, Tailwind, and Node.js</span>. I enjoy building user-friendly web applications and ensuring 
-            their security. Currently, I'm pursuing a <span className="font-semibold text-blue-600">B.Tech in Computer Science</span> at 
-            <span class="font-semibold text-blue-600"> Pandit Deendayal Energy University</span>.
+            I'm a passionate <span className="font-semibold text-blue-600">Computer Science undergraduate</span> with a strong foundation in 
+            <span className="font-semibold text-blue-600"> full-stack web development</span> and system design. Based in 
+            <span className="font-semibold text-blue-600"> Gandhinagar, Gujarat</span>, I specialize in building 
+            <span className="font-semibold text-blue-600"> scalable, production-ready applications</span>.
           </p>
           <p className="mt-2 text-gray-600">
-            I specialize in developing <span className="font-semibold text-blue-600">full-stack web applications</span> with MERN stack and have a keen interest in 
-            <span className="font-semibold text-blue-600"> AI & security</span>.
+            I have solved <span className="font-semibold text-blue-600">200+ problems</span> across LeetCode, GeeksforGeeks, and CodeChef. 
+            Currently working with <span className="font-semibold text-blue-600">modern frameworks and cloud-native tools</span>, 
+            I'm passionate about creating efficient and robust web solutions.
           </p>
         </div>
       </div>

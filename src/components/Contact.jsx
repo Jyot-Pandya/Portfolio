@@ -23,7 +23,13 @@ const Contact = () => {
             <a href="https://www.linkedin.com/in/jyot-pandya-b91586264" target="_blank" className="text-gray-700 hover:text-gray-900 text-2xl">
               🔗 LinkedIn
             </a>
+            <a href="https://leetcode.com/u/jyotpandya1512/" target="_blank" className="text-gray-700 hover:text-gray-900 text-2xl">
+              🔗 LeetCode
+            </a>
           </div>
+          <p className="mt-4 text-gray-600">
+            📍 Gandhinagar, Gujarat, India
+          </p>
         </div>
       </section>
     );
