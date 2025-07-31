@@ -9,7 +9,7 @@ const projects = [
       title: "Payora",
       description: "A wallet-based P2P transaction system with authentication and sleek UI. Implements monorepo architecture for modular scalability.",
       tech: ["Next.js", "TailwindCSS", "PostgreSQL", "Prisma", "NextAuth", "Turborepo"],
-      link: "https://payora-app.vercel.app",
+      link: "https://payora-user.vercel.app/home",
     },
     {
       title: "Vinayak Industries Website",
